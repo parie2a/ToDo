@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#55000000"
+    android:orientation="vertical"
+    android:padding="5sp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/rounded_text_border"
+        android:padding="5sp">
+
+        <TextView
+            android:id="@+id/list_item_tv_title"
+            android:layout_width="299dp"
+            android:layout_height="wrap_content"
+            android:padding="2sp"
+            android:text="TextView"
+            android:textSize="24sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/list_item_tv_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight=".25"
+            android:width="20dp"
+            android:padding="2sp"
+            android:text="TextView"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:padding="5sp">
+
+        <TextView
+            android:id="@+id/list_item_discription"
+            android:layout_width="300dp"
+            android:layout_height="30dp"
+            android:paddingLeft="20sp"
+            android:paddingRight="0sp"
+            android:text="TextView"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/status_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="5sp"
+            android:text="TextView"
+            android:textColor="#86D8E3"
+            android:textColorHighlight="#FFFFFF"
+            android:textColorHint="#86D8E3"
+            android:textStyle="bold|italic" />
+
+    </LinearLayout>
+
+</LinearLayout>
